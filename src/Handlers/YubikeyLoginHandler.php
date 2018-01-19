@@ -9,6 +9,9 @@ use SilverStripe\Security\Member;
 use SilverStripe\Security\MemberAuthenticator\MemberLoginForm;
 use SilverStripe\Security\Security;
 
+/**
+ * Class YubikeyLoginHandler
+ */
 class YubikeyLoginHandler extends MFALoginHandler
 {
     private static $url_handlers = [
